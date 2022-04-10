@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Projet 2 OpenClassrooms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/947b2c4d82.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/tablette.css" media="screen and (max-width: 991px)">
+        <link rel="stylesheet" href="CSS/mobile.css"   media="screen and (max-width: 767px)">
     </head>
     <body>
         <div class="block-page">
@@ -67,7 +70,7 @@
             </div>
             
             <section id="hebergement">
-                <article class="marseille">
+                <div class="marseille">
                     <div class="titre_article">
                         <h3>Hébergements à Marseille</h3>
                         <p>Afficher plus</p>
@@ -127,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
                 <aside id="popularites">
                     <div class="titre_aside">
@@ -203,27 +206,29 @@
             </section>
         </div>
         <footer class="pied_de_page">
-            <div class="propos1">
-                <h5>A propos</h5>
-                <ul>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
-                </ul>
-            </div>
-            <div class="propos2">
-                <h5>Nos hébergements</h5>
-                <ul>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
-                </ul>
-            </div>
-            <div class="propos3">
-                <h5>Asistance</h5>
-                <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
+            <div id="apropos">
+                <div class="propos1">
+                    <h5>A propos</h5>
+                    <ul>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales de vente</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
+                </div>
+                <div class="propos2">
+                    <h5>Nos hébergements</h5>
+                    <ul>
+                        <li>Charte qualité</li>
+                        <li>Soumettre votre hôtel</li>
+                    </ul>
+                </div>
+                <div class="propos3">
+                    <h5>Asistance</h5>
+                    <ul>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>

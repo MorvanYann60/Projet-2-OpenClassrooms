@@ -176,7 +176,6 @@ form p {
 }
 
 #hebergement {
-    height: 450px;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -184,8 +183,7 @@ form p {
 
 .marseille {
     border-radius: 20px;
-    height: 435px;
-    width: 68%;
+    width: 700px;
     margin: 5px;
     background-color: #f2f2f2;
 }
@@ -209,7 +207,6 @@ form p {
 }
 
 .propositions_groupe {
-    height: 320px;
     margin: 8px;
     display: flex;
     justify-content: center;
@@ -219,7 +216,7 @@ form p {
 .proposition {
     border: 3px solid white;
     border-radius: 15px;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 10px 5px 5px lightgrey;
     height: 140px;
     width: 28%;
     margin: 8px;
@@ -257,7 +254,6 @@ form p {
 }
 
 #popularites {
-    height: 435px;
     width: 28%;
     margin: 5px;
     border-radius: 20px;
@@ -275,7 +271,6 @@ form p {
 }
 
 .choix_hotel {
-    height: 370px;
     margin: 8px;
     display: flex;
     justify-content: center;
@@ -329,7 +324,6 @@ form p {
 }
 
 .activites {
-    height: 400px;
     margin-top: 5px;
 }
 
@@ -506,21 +500,27 @@ form p {
 }
 
 .pied_de_page {
-    height: 200px;
     margin-top: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
+    width: 100%;
+}
+
+#apropos {
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .propos1 {
     height: 150px;
-    min-width: 150px;
-    margin: 8px;
+    /*min-width: 150px;
+    margin: 8px;*/
     line-height: 0px;
-    position: relative;
-    right: 90px;
+    /*position: relative;
+    right: 90px;*/
 }
 
 .propos1 ul {
@@ -531,12 +531,12 @@ form p {
 }
 
 .propos2 {
-    height: 150px;
+    /*height: 150px;
     min-width: 150px;
-    margin: 130px;
+    margin: 130px;*/
     line-height: 0px;
     position: relative;
-    right: 90px;
+    /*right: 90px;*/
 }
 
 .propos2 ul {
@@ -547,12 +547,12 @@ form p {
 }
 
 .propos3 {
-    height: 150px;
+    /*height: 150px;
     min-width: 150px;
-    margin: 8px;
+    margin: 8px;*/
     line-height: 0px;
     position: relative;
-    right: 90px;
+    /*right: 90px;*/
 }
 
 .propos3 ul {
