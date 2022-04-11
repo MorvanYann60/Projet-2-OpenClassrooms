@@ -1,0 +1,91 @@
+.block-page {
+    width: 768px;
+}
+
+.logo img {
+    width: 20%
+}
+
+.titre1 {
+    text-align: center;
+    font-size: 9px;
+}
+
+.titre1 p {
+    font-size: 14px;
+}
+
+.recherches {
+    text-align: center;
+}
+
+.filtres {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+.info {
+    justify-content: center;
+}
+
+#hebergement {
+    flex-wrap:  wrap-reverse;
+}
+
+.marseille {
+    position: relative;
+    left: 25px;
+}
+
+.titre_article h3 {
+    position: relative;
+    left: 230px;
+}
+
+.propositions_groupe {
+    padding-bottom: 30px;  
+}
+
+#popularites {
+    width: 90%;
+    position: relative;
+    left: 32px;
+    margin-bottom: 15px;
+}    
+
+
+.titre_aside{
+    text-align: center
+}
+
+.choix_hotel {
+    flex-wrap: nowrap;
+}
+
+.hotel_image {
+    width: 70px;
+}
+
+.hotel_titre {
+    position: relative;
+    left: 10px;
+}
+
+.lieux {
+    flex-wrap: wrap;
+    position: relative;
+    left: 20px;
+    margin-bottom: 250px;
+}
+
+.lieu5 {
+    position: relative;
+    left: 100px;
+}
+
+.lieu6 {
+    position: relative;
+    left: 359px;
+    bottom: 222px;
+}
