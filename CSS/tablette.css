@@ -95,3 +95,7 @@
     left: 359px;
     bottom: 199px;
 }
+
+#apropos {
+    justify-content: space-evenly;
+}
