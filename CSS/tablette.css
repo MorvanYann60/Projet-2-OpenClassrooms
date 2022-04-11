@@ -72,6 +72,10 @@
     left: 10px;
 }
 
+.titre_activites {
+    text-align: center;
+}
+
 .lieux {
     flex-wrap: wrap;
     position: relative;
@@ -80,12 +84,18 @@
 }
 
 .lieu5 {
+    height: 35%;
     position: relative;
     left: 100px;
 }
 
 .lieu6 {
+    height: 35%;
     position: relative;
     left: 359px;
-    bottom: 222px;
+    bottom: 199px;
+}
+
+#apropos {
+    justify-content: space-evenly;
 }
