@@ -39,8 +39,9 @@
 }
 
 .titre_article h3 {
+    text-align: center;
     position: relative;
-    left: 230px;
+    left: 10px;
 }
 
 .propositions_groupe {
@@ -72,14 +73,14 @@
     left: 10px;
 }
 
-.titre_activites {
+.titre_activites h3 {
     text-align: center;
 }
 
 .lieux {
     flex-wrap: wrap;
     position: relative;
-    left: 20px;
+    left: 12px;
     margin-bottom: 250px;
 }
 
@@ -87,6 +88,7 @@
     height: 35%;
     position: relative;
     left: 100px;
+    top: 1px;
 }
 
 .lieu6 {
@@ -94,6 +96,10 @@
     position: relative;
     left: 359px;
     bottom: 199px;
+}
+
+.pied_de_page {
+    height: 200px
 }
 
 #apropos {
