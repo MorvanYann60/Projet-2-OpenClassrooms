@@ -1,0 +1,20 @@
+.block-page {
+  width: 100%;
+}
+
+.header {
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.logo {
+  width: 0%;
+}
+
+.logo img {
+  width: 10%;
+}
+
+.onglet {
+  width: 0%;
+}
