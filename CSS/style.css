@@ -107,6 +107,10 @@ form p {
     cursor: pointer;
 }
 
+.mobile_only {
+    opacity: 0;
+}
+
 .filtres {
     height: 45px;
     margin-top: 5px;

@@ -3,18 +3,224 @@
 }
 
 .header {
-  flex-direction: column;
-  border: 1px solid red;
+  width: 100%;
+  /*! position: relative; */
+  left: 100px;
+  text-align: center;
+  display: inline-block;
 }
 
 .logo {
-  width: 0%;
-}
-
-.logo img {
-  width: 10%;
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  /*! position: absolute; */ left: 214px;
+  bottom: 4px;
 }
 
 .onglet {
-  width: 0%;
+  width: 50%;
+  margin: auto;
+}
+
+.onglet ul {
+  border-bottom: 3px solid #f2f2f2;
+}
+
+.onglet ul li {
+  font-size: 16px;
+  border-bottom: 3px solid #f2f2f2;
+}
+
+.titre1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.titre1 h1 {
+  line-height: 25px;
+}
+
+.barre_de_recherche {
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  right: 15px;
+  bottom: 0.7px;
+  padding: 8px;
+}
+
+.desktop_only {
+  display: none;
+}
+
+.mobile_only {
+  opacity: 1;
+}
+
+.filtres {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+#popularites {
+  width: 80%;
+  border-radius: 0px;
+}
+
+.marseille {
+  position:  relative;
+  left: 0px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+.titre_article h3 {
+  text-align: left;
+}
+
+.titre_article p {
+  position: relative;
+  top: 965px;
+  left: 10px;
+}
+
+.propositions_groupe {
+  display: block;
+}
+
+.proposition {
+  width: 90%;
+  height: 145px;
+}
+
+.proposition_image {
+  height: 60%
+}
+
+.proposition_texte {
+  line-height: 0px;
+}
+
+.titre_aside {
+  text-align: left;
+  height: 27px;
+}
+
+.choix_hotel {
+  flex-wrap: wrap;
+}
+
+.hotel_image {
+  width: 105px;
+}
+
+.activites {
+  width: 80%;
+  margin: auto;
+}
+
+.titre_activites {
+  height: 30px;
+}
+
+.titre_activites h3 {
+  text-align: left;
+}
+
+.lieux {
+  display: block;
+  padding-left: 0px;
+  position: relative;
+  left: 0px;
+  margin-bottom: 684px;
+}
+
+.lieu1 {
+  width: 92%;
+  height: 145px;
+  margin-bottom: 20px;
+}
+
+.lieu_image {
+  height: 70%
+}
+
+.lieu2 {
+  width: 92%;
+  height: 145px;
+  position: relative;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.lieu3 {
+  width: 92%;
+  height: 145px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.lieu3_image {
+  height: 70%;
+}
+
+.lieu4 {
+  width: 92%;
+  height: 145px;
+  position: relative;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.lieu4_image {
+  height: 70%;
+}
+
+.lieu5 {
+  height: 145px;
+  width: 92%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 20px;
+}
+
+.lieu5_image {
+  height: 70%;
+}
+
+.lieu6 {
+  width: 92%;
+  height: 145px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.lieu6_image {
+  height: 70%;
+}
+
+.pied_de_page {
+  height: 420px;
+  width: 103%;
+}
+
+#apropos {
+  display: block;
+  margin-left: 62px;
+}
+
+.propos1 {
+  height: 140px;
+}
+
+.propos2 {
+  margin-bottom: 50px;
 }
