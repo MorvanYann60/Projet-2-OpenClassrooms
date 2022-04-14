@@ -85,12 +85,13 @@ form p {
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     border-radius: 10px 0px 0px 10px;
-    padding: 7px 7px 7px 7px;
+    padding: 8px 8px 7px 10px;
 }
 
 #localisation {
     padding: 8px 7px 7px;
     border: 1px solid #f2f2f2;
+    font-family: 'Raleway';
 }
 
 #localisation:hover {
