@@ -240,6 +240,10 @@
   height: 70%;
 }
 
+.groupe_lieux {
+  display: block;
+}
+
 .lieu5 {
   height: 145px;
   width: 92%;
@@ -270,6 +274,8 @@
 .pied_de_page {
   height: 420px;
   width: 103%;
+  position: relative;
+  top: 0px;
 }
 
 #apropos {

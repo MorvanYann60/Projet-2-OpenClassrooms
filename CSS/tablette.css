@@ -87,25 +87,32 @@
     position: relative;
     left: 12px;
     padding-left: 15px;
-    margin-bottom: 250px;
+}
+
+.groupe_lieux {
+    display: flex;
+    height: 50%;
+    margin: auto;
 }
 
 .lieu5 {
-    height: 35%;
+    height: 90%;
     position: relative;
-    left: 100px;
-    top: 1px;
+    left: 0px;
 }
 
 .lieu6 {
-    height: 35%;
+    height: 90%;
     position: relative;
-    left: 359px;
-    bottom: 199px;
+    left: 0px;
+    margin-top: 8px;
+
 }
 
 .pied_de_page {
-    height: 200px
+    height: 200px;
+    position: relative;
+    top: 170px;
 }
 
 #apropos {
