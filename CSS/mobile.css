@@ -176,6 +176,10 @@
   height: 27px;
 }
 
+.titre_aside h3 {
+  justify-content: space-between;
+}
+
 .choix_hotel {
   flex-wrap: wrap;
 }
