@@ -19,14 +19,23 @@
 }
 
 .onglet {
-  width: 50%;
-  margin: auto;
-  line-height: 0px;
-  height: 5px;
+  width: 100%;
+}
+
+.onglet ul {
+  padding-left: 0px;
 }
 
 .onglet ul li {
+  width: 50%;
   font-size: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.onglet ul li a {
+  border-bottom: 3px solid #f2f2f2;
+  display: block;
 }
 
 .onglet ul li a:hover {
