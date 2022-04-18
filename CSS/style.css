@@ -271,8 +271,14 @@ form p {
 }
 
 .titre_aside h3 {
-    position: relative;
-    left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre_aside h3 i {
+    margin-top: 5px;
+    color: black;
+    font-size: 15px;
 }
 
 .choix_hotel {

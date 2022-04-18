@@ -62,7 +62,12 @@
 
 
 .titre_aside{
-    text-align: center
+    text-align: center;
+}
+
+.titre_aside h3 {
+    margin-left: 15px;
+    justify-content: center;
 }
 
 .choix_hotel {
