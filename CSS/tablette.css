@@ -22,7 +22,7 @@
 .filtres {
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 62px;
+    height: 110px;
 }
 
 .filtre_tablette {
@@ -47,6 +47,10 @@
     text-align: center;
     position: relative;
     left: 10px;
+}
+
+.titre_aside h3 i {
+    margin-left: 15px;
 }
 
 .propositions_groupe {
@@ -88,6 +92,7 @@
 }
 
 .lieux {
+    height: 480px;
     flex-wrap: wrap;
     position: relative;
     left: 12px;
@@ -96,28 +101,23 @@
 
 .groupe_lieux {
     display: flex;
-    height: 50%;
     margin: auto;
 }
 
 .lieu5 {
-    height: 90%;
     position: relative;
     left: 0px;
 }
 
 .lieu6 {
-    height: 90%;
     position: relative;
     left: 0px;
     margin-top: 8px;
-
 }
 
 .pied_de_page {
     height: 200px;
     position: relative;
-    top: 170px;
 }
 
 #apropos {

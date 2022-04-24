@@ -8,6 +8,7 @@
   left: 100px;
   text-align: center;
   display: inline-block;
+  padding: 0px;
 }
 
 .logo {
@@ -73,7 +74,7 @@
 .filtres {
   width: 72%;
   margin: auto;
-  margin-bottom: 120px;
+  height: 200px;
   display: block;
 }
 
@@ -118,7 +119,6 @@
 
 .info {
   width: 90%;
-  margin-top: 130px;
   position: relative;
   left: 20px;
 }
@@ -132,15 +132,16 @@
 }
 
 #popularites {
-  width: 80%;
+  width: 100%;
   border-radius: 0px;
+  left: unset;
 }
 
 .marseille {
   position:  relative;
   left: 0px;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+
   background-color: white;
 }
 
@@ -164,7 +165,7 @@
 }
 
 .proposition_image {
-  height: 60%
+  height: 87px;
 }
 
 .proposition_texte {
@@ -189,8 +190,7 @@
 }
 
 .activites {
-  width: 80%;
-  margin: auto;
+  width: 100%;
 }
 
 .titre_activites {
@@ -202,11 +202,11 @@
 }
 
 .lieux {
+  height: unset;
   display: block;
   padding-left: 0px;
   position: relative;
   left: 0px;
-  margin-bottom: 684px;
 }
 
 .lieu1 {
@@ -216,7 +216,7 @@
 }
 
 .lieu_image {
-  height: 70%
+  height: 100px;
 }
 
 .lieu2 {
@@ -237,7 +237,7 @@
 }
 
 .lieu3_image {
-  height: 70%;
+  height: 100px;
 }
 
 .lieu4 {
@@ -249,11 +249,12 @@
 }
 
 .lieu4_image {
-  height: 70%;
+  height: 140px;
 }
 
 .groupe_lieux {
   display: block;
+  height: unset;
 }
 
 .lieu5 {
@@ -266,7 +267,7 @@
 }
 
 .lieu5_image {
-  height: 70%;
+  height: 100px;
 }
 
 .lieu6 {
@@ -280,19 +281,20 @@
 }
 
 .lieu6_image {
-  height: 70%;
+  height: 100px;
 }
 
 .pied_de_page {
   height: 420px;
-  width: 103%;
+  width: 100%;
   position: relative;
   top: 0px;
 }
 
 #apropos {
+  width: 100%;
   display: block;
-  margin-left: 62px;
+  margin-left: 32px;
 }
 
 .propos1 {
@@ -301,4 +303,8 @@
 
 .propos2 {
   margin-bottom: 50px;
+}
+
+#hebergement {
+  justify-content: normal;
 }
