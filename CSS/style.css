@@ -91,6 +91,7 @@ form p {
 #localisation {
     padding: 8px 7px 7px;
     border: 1px solid #f2f2f2;
+    font-weight: bold;
     font-family: 'Raleway';
 }
 
@@ -121,6 +122,10 @@ form p {
 
 .filtres_titre {
     margin-right: 20px;
+}
+
+.filtres_groupe {
+    display: flex;
 }
 
 .filtres_texte_icone {
@@ -221,7 +226,7 @@ form p {
 .proposition {
     border: 3px solid white;
     border-radius: 15px;
-    box-shadow: 10px 5px 5px lightgrey;
+    box-shadow: 2px 2px 15px lightgray;
     height: 140px;
     width: 28%;
     margin: 8px;
@@ -296,7 +301,7 @@ form p {
     margin: 8px;
     cursor: pointer;
     background-color: white;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     position: relative;
     bottom: 5px;
     display: flex;
@@ -359,7 +364,7 @@ form p {
     height: 307px;
     width: 220px;
     margin: 8px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     cursor: pointer;
 }
 
@@ -385,7 +390,7 @@ form p {
     margin: 8px;
     position: relative;
     left: 12px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     cursor: pointer;
 }
 
@@ -412,7 +417,7 @@ form p {
     position: relative;
     left: 12px;
     top: 27px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     cursor: pointer;
 }
 
@@ -438,7 +443,7 @@ form p {
     margin: 8px;
     position: relative;
     left: 20px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     cursor: pointer;
 }
 
@@ -464,7 +469,8 @@ form p {
     margin: 8px;
     position: relative;
     left: 30px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
+    outline: none;
     cursor: pointer;
 }
 
@@ -491,7 +497,7 @@ form p {
     margin-top: 45px;
     position: relative;
     left: 30px;
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 2px 2px 15px lightgray;
     cursor: pointer;
 }
 

@@ -72,9 +72,9 @@
 }
 
 .filtres {
-  width: 72%;
+  width: 84%;
   margin: auto;
-  height: 200px;
+  height: 185px;
   display: block;
 }
 
@@ -83,38 +83,30 @@
   line-height: 1px;
 }
 
+.filtres_titre h4 {
+  position: relative;
+  left: 8px;
+}
+
+.filtres_groupe {
+  margin-right: 0px;
+  justify-content: flex-start;
+}
+
 .filtres_texte_icone {
   margin-right: 0px;
-  padding-right: 0px;
   justify-content: flex-start;
+  margin: 4px;
 }
 
 .filtres_texte {
   padding-left: 5px;
 }
 
-.filtre_mobile1 {
-  width: 57%;
-}
-
-.filtre_mobile2 {
-  width: 45%;
+.filtre_tablette {
   position: relative;
-  bottom: 42px;
-  left: 189px;
-}
-
-.filtre_mobile3 {
-  width: 57%;
-  position: relative;
-  bottom: 35px;
-}
-
-.filtre_mobile4 {
-  width: 75%;
-  position: relative;
-  bottom: 28px;
   left: 0px;
+  top: 0px;
 }
 
 .info {
